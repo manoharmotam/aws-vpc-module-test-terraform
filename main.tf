@@ -3,7 +3,7 @@ module "vpc" {
   
   environment = var.environment
   vpc_cidr = "192.168.0.0/16"
-  is_peering_needed = true
+  is_peering_needed = false
   vpc_tags = {
     "Message" = "Hello World"
   }
